@@ -6175,10 +6175,13 @@ button:focus {
     margin-bottom: calc(64px + 40px);
   }
 }
-.ui-testimonial-section__slider {
+
+.rhtj{}
+/* .ui-testimonial-section__slider {
   /* the slides */
-  /* the parent */
-}
+  /* the parent { */ 
+
+
 .ui-testimonial-section__slider .slick-slide {
   transition: 0.3s;
   opacity: 0.6;
