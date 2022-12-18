@@ -9,7 +9,7 @@
 		
 		$to='aceteamxi@gmail.com'; // Receiver Email ID, Replace with your email ID
 		$subject="Subject :".$service;
-		$message="Name :".$name."\n"."Email :".$email."\n"."Phone :".$topic."\n"."Date :".$budget."\n"."Wrote the following :"."\n\n".$message;
+		$message="Name :".$name."\n"."Email :".$email."\n"."Subject :".$topic."\n"."Date :".$budget."\n"."Wrote the following :"."\n\n".$message;
 		$headers="From: ".$email;
 
 		if(mail($to, $subject, $message, $headers)){
